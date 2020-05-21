@@ -1,6 +1,6 @@
 # PlayingCardGame
 ## Question 1
-...swift
+```swift
 override func layoutSubviews() {
         super.layoutSubviews()
         configureCornerLabel(upperLeftCornerLabel)
@@ -14,4 +14,4 @@ override func layoutSubviews() {
             .offsetBy(dx: -cornerOffset, dy: -cornerOffset)
             .offsetBy(dx: -lowerRightCornerLabel.frame.size.width, dy: -lowerRightCornerLabel.frame.size.height)
     }
-...
+```
